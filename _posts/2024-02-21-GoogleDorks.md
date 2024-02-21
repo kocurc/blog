@@ -1,5 +1,5 @@
 ---
-title: "Google Dorkings"
+title: "Google-Dorks"
 date: 2024-02-21
 ---
 
