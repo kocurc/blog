@@ -17,30 +17,32 @@ The below operators are some interesting operators that might be used to filter 
 
 Operator | Meaning | Examples
 --- | --- | ---
-"" | Search for specific phrase | "GameBoy Color"
-OR | Search for either one or second text | "GameBoy Color" OR "GameBoy Colour"
-\- | Search for results that does contain specific phrase/word | "GameBoy Color" -amazon
-\* | Wilrcard for any word | GameBoy *
-allintext: | Search for results that contain all phrases | allintext:"GameBoy Color" "Nintendo DS"
-intext: | s | s
-allinurl: | s | s
-inurl: | s | s
-allintitle: | s | s
-intitle: | s | s
-site: | s | s
-ext: | s | s
-related: | s | s
+"" | Search for specific phrase | ["GameBoy Color"](https://www.google.com/search?q=%22GameBoy+Color%22&oq=%22GameBoy+Color%22)
+OR | Search for either one or second text | ["GameBoy Color" OR "GameBoy Colour"](https://www.google.com/search?q=%22GameBoy+Color%22+OR+%22GameBoy+Colour%22)
+\- | Search for results that does contain specific phrase/word | ["GameBoy Color" -amazon](https://www.google.com/search?q=%22GameBoy+Color%22+-amazon)
+\* | Wilrcard for any word | [GameBoy *](https://www.google.com/search?q=GameBoy+*)
+allintext: | Search for results that contain all phrases | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+intext: | s | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+allinurl: | s | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+inurl: | s | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+allintitle: | s | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+intitle: | s | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+site: | s | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+ext: | s | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+related: | s | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
 
+### Google Dorks
 
+The below Google queries are interesting Google Dorks that may help us retrieve interesting or vulnerable data leakage.
 
 Google Dork | Meaning
 --- | ---
-intitle:"scada login" "login" | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-intitle:"index of" scada | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-site:wp.pl admin | lorem ipsum | lorem | lorem ipsum
-site:onet.pl intitle:login | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
-site:onet.pl intitle:"index of"| lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-inurl:"home?p_p_id" site:com | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-site:.pl intitle:"Swagger UI" | lorem ipsum | lorem | lorem ipsum
-site:wp.pl filetype:xml | lorem ipsum | lorem | lorem ipsum
-site:pastebin.com intext:"*@credit-suisse.com" | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
+intitle:"scada login" "login" | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+intitle:"index of" scada | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+site:wp.pl admin | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+site:onet.pl intitle:login | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+site:onet.pl intitle:"index of"| [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+inurl:"home?p_p_id" site:com | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+site:.pl intitle:"Swagger UI" | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+site:wp.pl filetype:xml | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+site:pastebin.com intext:"*@credit-suisse.com" | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
