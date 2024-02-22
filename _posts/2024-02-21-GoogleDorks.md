@@ -13,7 +13,7 @@ This process might be used in the Reconnaissance phase of a penetration test.
 
 ### Google search operators
 
-The below operators are some interesting operators that might be used to filter Google search results.
+The below table shows relevant operators that might be used to filter Google search results.
 
 Operator | Meaning | Examples
 --- | --- | ---
@@ -33,16 +33,15 @@ related: | Search for results related to a specific website | [related:amazon.co
 
 ### Google Dorks
 
-The below Google queries are interesting Google Dorks that may help us retrieve interesting or data leakage.
+The below Google queries are interesting Google Dorks that may help us retrieve interesting data.
 
 Google Dork | Meaning
 --- | ---
-intitle:"scada login" "login" | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
-intitle:"index of" scada | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
-site:wp.pl admin | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
-site:onet.pl intitle:login | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
-site:onet.pl intitle:"index of"| [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
-inurl:"home?p_p_id" site:com | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
-site:.pl intitle:"Swagger UI" | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
-site:wp.pl filetype:xml | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
-site:pastebin.com intext:"*@credit-suisse.com" | [allintext:"GameBoy Color" "Nintendo DS"](https://www.google.com/search?q=allintext%3A%22GameBoy+Color%22+%22Nintendo+DS%22)
+[intitle:"scada login" login](https://www.google.com/search?q=intitle%3A%22SCADA+Login%22+login) | Search for SCADA systems with a login form
+[intitle:"index of" scada](https://www.google.com/search?q=intitle%3A%22index+of%22+scada) | This query allows you to list server files related to SCADA system
+[site:wp.pl admin](https://www.google.com/search?q=site%3Awp.pl+admin) | Find the admin related pages on a domain
+[site:onet.pl intitle:login](https://www.google.com/search?q=site%3Aonet.pl+intitle%3Alogin) | Find pages on a domain that contains login in the title
+[site:onet.pl intitle:"index of"](https://www.google.com/search?q=site%3Aonet.pl+intitle%3A%22index+of%22&oq=site%3Aonet.pl+intitle%3A%22index+of%22) | Find pages on a specific subdomain that lists files on a server
+[site:*.pl intitle:"Swagger UI"](https://www.google.com/search?q=site%3A*.pl+intitle%3A%22Swagger+UI%22&oq=site%3A*.pl+intitle%3A%22Swagger+UI%22) | Find pages on the .pl top-level domain with access to Swagger API documentation
+[site:wp.pl filetype:xml](https://www.google.com/search?q=site%3Awp.pl+filetype%3Axml&oq=site%3Awp.pl+filetype%3Axml) | This query allows you to search pages or files with the xml extension on a specific domain 
+[site:pastebin.com intext:"*@wp.pl"](https://www.google.com/search?q=site%3Apastebin.com+intext%3A%22*%40wp.pl%22&oq=site%3Apastebin.com+intext%3A%22*%40wp.pl%22) | This query allows you to search e-mails from a domain that are hosted on the pastebin.com
