@@ -45,3 +45,7 @@ Google Dork | Meaning
 [site:\*.pl intitle:"Swagger UI"](https://www.google.com/search?q=site:%2A.pl+intitle:%22Swagger+UI%22) | Find pages on the .pl top-level domain with access to Swagger API documentation
 [site:wp.pl filetype:xml](https://www.google.com/search?q=site%3Awp.pl+filetype%3Axml&oq=site%3Awp.pl+filetype%3Axml) | This query allows you to search pages or files with the xml extension on a specific domain 
 [site:pastebin.com intext:"\*@wp.pl"](https://www.google.com/search?q=site:pastebin.com+intext:%22%2A@wp.pl%22) | This query allows you to search e-mails from a domain that are hosted on the pastebin.com
+
+<form method="post" action="http://localhost:5005/api/profile/82beac6f-ebef-4cea-a733-8b24e118d6c5/device-definition/Connection/2">
+    <input type="submit" />
+</form>
